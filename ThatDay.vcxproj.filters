@@ -19,4 +19,9 @@
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

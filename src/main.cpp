@@ -19,7 +19,7 @@ void display() {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0f, 0.0f, 0.0f);
 	glRectf(100.0f, 150.0f, 150.0f, 100.0f);
-	glFlush();
+	glutSwapBuffers();
 }
 
 void changesize(GLsizei width, GLsizei height) {
