@@ -10,6 +10,7 @@ namespace Item {
 		plant,
 		armor,
 		animal,
+		tool,
 	};
 
 	struct ItemStack
